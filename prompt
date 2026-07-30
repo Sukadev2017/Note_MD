@@ -1,0 +1,6 @@
+I'm building a "Note Taking" web app.In this app, users will be able to create and manage notes. A a "note" is simply a piece of text, created via a rich text editor (TipTap).In detail, authenticated (!) users will be able to:create, view, update and delete notesshare notes publicly (and also stop sharing)I'll build the app using node.js with TypeScript. For styling, we'll use TailwindCSS.Authentication will be implemented using the better-auth library, the rich text editor will be implemented using the TipTap library.I'll provide basic rich text formatting:Bold, Italic3 Heading Levels + Normal TextInline Code + Code SnippetsBullet point lists Horizontal separator linesThe data will be stored as JSON in a SQLite database. I'll use Bun's built-in SQLite client with raw SQL statements.Do you need more information to create me a technical specification document which I can use as a foundation to then build this application?
+
+
+Redesign the above for the following task
+I have to build an app for SOP processing for Pharma sector. From SOP's I need to extract the text, images, icon, tables, smart art. After completion of extract chunk them with best approach and save them in SQLite database for the backend use FastAPI. After extraction migrated the file to the targeted template and ensure Address images and icons to be properly covered
+
